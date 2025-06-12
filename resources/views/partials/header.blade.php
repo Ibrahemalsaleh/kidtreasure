@@ -228,7 +228,7 @@
                             <i class="fas fa-info-circle text-sm w-5"></i>
                             <span class="font-medium text-sm">About Us</span>
                         </a>
-                        <a href="/contact" class="flex items-center space-x-3 ltr:space-x-reverse text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 p-3 rounded-lg transition-all duration-300" data-translate="nav_contact">
+                        <a href="/contact" class="flex items-center space-x-3 ltr:space-x-reverse text-gray-700 hover:text-indigo-600 hover:bg-indigo-50 p-3 rounded-lg transition-all duration-300">
                             <i class="fas fa-envelope text-sm w-5"></i>
                             <span class="font-medium text-sm">Contact Us</span>
                         </a>

@@ -29,6 +29,7 @@ Route::get('/products/{product}', [ProductController::class, 'show'])->name('pro
 Route::get('/workshops', [WorkshopController::class, 'index'])->name('workshops.index'); 
 Route::get('/workshops/{event}/register', [WorkshopController::class, 'showRegistrationForm'])->name('workshops.register.form'); 
 Route::post('/workshops/{event}/register', [WorkshopController::class, 'register'])->name('workshops.register'); 
+Route::post('/workshops/register-interest', [WorkshopController::class, 'registerInterest'])->name('workshops.register.interest');
 Route::get('/stories', [StoryController::class, 'index'])->name('stories.index'); 
 Route::get('/stories/submit', [StoryController::class, 'create'])->name('stories.create'); 
 Route::post('/stories/submit', [StoryController::class, 'store'])->name('stories.store'); 
