@@ -71,7 +71,8 @@
                 <div class="card-body">
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
-                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
+                            <div class="text-xs font-weight-bold text-warning text-uppercase
+                            mb-1">
                                 Messages
                             </div>
                             <div class="h5 mb-0 font-weight-bold text-gray-800">{{ $stats['messages'] }}</div>
@@ -209,9 +210,9 @@
                     @foreach($topProducts as $product)
                     <div class="d-flex align-items-center mb-3">
                         <div class="flex-shrink-0">
-                            <img src="{{ $product->image_url ?? '/images/default-product.jpg' }}" 
-                                 alt="{{ $product->name }}" 
-                                 class="rounded" 
+                            <img src="{{ $product->image_url ?? '/images/default-product.jpg' }}"
+                                 alt="{{ $product->name }}"
+                                 class="rounded"
                                  style="width: 50px; height: 50px; object-fit: cover;">
                         </div>
                         <div class="flex-grow-1 ms-3">
